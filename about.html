@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="shell" id="navShell">
+  <main>
+    <div class="page">
+      <p class="eyebrow">About</p>
+      <h1 class="page-title">A little about me</h1>
+      <p class="lede">
+        I move between different worlds: finance, technology and travel. 
+        Always curious about how they connect and how thoughtful experiences can shape the way people live.
+      </p><p>  
+        By day, I build products and customer experiences in banking. Beyond work, I explore places, collect stories and create small projects
+        that turn everyday moments into something more meaningful.
+      </p><p>  
+        This space is where those worlds come together.
+      </p>
+
+      <h2>What I do</h2>
+      <p>
+        Over the past few years, I've built engine, designed payment experiences and launched programs that help people 
+        engage more seamlessly with financial products. 
+      </p>
+      <p>
+        I'm particularly interested in how technology, human behavior, and design can create experiences that feel simple, intuitive and valuable.
+      </p>
+
+      <h2>Outside of work</h2>
+      <p>
+        You'll usually find me planning my next trip, discovering cafes, playing tennis, pilates or turning travel memories into creative
+        projects. I believe we don't have to become just one thing. 
+      </p>
+      <p>    
+        I'm learning to embrace different interests, collect experiences from many places and bloom beyond a single path.
+      </p>
+
+      <h2>Find me</h2>
+      <div class="social-row" id="aboutSocials" style="margin-top:0.5rem;"></div>
+
+      <div class="footnote">Collecting experiences, connecting worlds.</div>
+    </div>
+  </main>
+</div>
+
+<script src="js/nav.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    document.getElementById("aboutSocials").innerHTML = socialIconsHTML();
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vania F. Halim</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="shell" id="navShell">
+  <main>
+    <div class="page">
+      <p class="eyebrow">Field notes</p>
+      <h1 class="page-title">Hi, I'm Vania.</h1>
+      <p class="lede">
+        I explore the spaces where finance, technology and travel intersect.
+        A collection of projects, travel challenges, work notes, and reflections gathered along the way.
+      </p>
+
+      <h2>Pin Collection</h2>
+      <div class="pinboard">
+        <p class="pinboard-label">COLLECT THROUGH TRAVEL CHALLENGES</p>
+        <div class="pin-row" id="pinStrip"></div>
+      </div>
+
+      <h2>Start here</h2>
+      <div class="card-grid" style="grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));">
+        <a class="card" href="challenges.html">
+          <div class="card-title">Challenges</div>
+          <p class="card-excerpt">Explore places through curated quizzes and collect limited edition pins.</p>
+        </a>
+        <a class="card" href="work-notes.html">
+          <div class="card-title">Work Notes</div>
+          <p class="card-excerpt">Thoughts on product, fintech, customer experiences and building meaningful systems.</p>
+        </a>
+      </div>
+
+      <div class="footnote">Collecting experiences, connecting worlds.</div>
+    </div>
+  </main>
+</div>
+
+<script src="js/nav.js"></script>
+<script src="js/quizzes.js"></script>
+<script src="js/quiz-engine.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", () => renderPinStrip("pinStrip"));
+</script>
+</body>
+</html>

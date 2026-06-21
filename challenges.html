@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Challenges \u2014 Vania F. Halim</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="shell" id="navShell">
+  <main>
+    <div class="page">
+      <p class="eyebrow">Challenges</p>
+      <h1 class="page-title">Travel quizzes</h1>
+      <p class="lede">
+        Collect journeys, not just places.
+        </p><p>
+        Each destination unlocks a limited-edition pin. Explore a city through curated questions, share your story, and build your collection one challenge at a time.
+      </p>
+
+      <div class="card-grid" id="quizList"></div>
+
+      <div class="footnote">The collection grows swith every place explored.</div>
+    </div>
+  </main>
+</div>
+
+<script src="js/nav.js"></script>
+<script src="js/quizzes.js"></script>
+<script src="js/quiz-engine.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", () => renderQuizList("quizList"));
+</script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quiz \u2014 Vania F. Halim</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="shell" id="navShell">
+  <main>
+    <div class="page">
+      <p class="eyebrow"><a href="challenges.html" style="color:var(--clay);">Challenges</a></p>
+      <div id="quizRunner"></div>
+    </div>
+  </main>
+</div>
+
+<script src="js/nav.js"></script>
+<script src="js/quizzes.js"></script>
+<script src="js/quiz-engine.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", () => renderQuizRunner("quizRunner"));
+</script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Work Notes \u2014 Vania F. Halim</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="shell" id="navShell">
+  <main>
+    <div class="page">
+      <p class="eyebrow">Work notes</p>
+      <h1 class="page-title">Essays from Medium</h1>
+      <p class="lede">
+        Pulled live from <a href="https://medium.com/@vaniahalim" target="_blank" rel="noopener" style="color:var(--clay);">medium.com/@vaniahalim</a>.
+      </p>
+
+      <div class="card-grid" id="mediumFeed"></div>
+
+      <div class="footnote">Posts update automatically whenever a new one is published on Medium.</div>
+    </div>
+  </main>
+</div>
+
+<script src="js/nav.js"></script>
+<script src="js/medium-feed.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", () => renderMediumFeed("mediumFeed"));
+</script>
+</body>
+</html>
