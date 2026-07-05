@@ -59,7 +59,7 @@ function renderNav() {
       <div class="sidebar-top">
         <a href="index.html" style="display:block;">
           <span class="mark">Vania F. Halim</span>
-          <span class="mark-sub">field notes &amp; pin collection</span>
+          <span class="mark-sub">field notes &amp; collection</span>
         </a>
         <ul class="nav-list">${navListHTML}</ul>
       </div>
